@@ -128,6 +128,7 @@ namespace PO2_4
                     f.WriteLine("--" + item);
                 }
             }
+            f.Close();
         }
 
         static void Main(string[] args)
